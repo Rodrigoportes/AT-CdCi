@@ -1,0 +1,11 @@
+name: 1.0 Validacao Simples
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  minima-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Executa um comando simples
+        run: echo "Workflow Simple."
